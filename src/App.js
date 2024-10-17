@@ -31,9 +31,9 @@ function App() {
       >
         <Header />
         <Description />
+        <CustomerCarousel cz={3} />
         <CustomerCarousel cz={1} />
         <CustomerCarousel cz={2} />
-        <CustomerCarousel cz={3} />
         <LongDescription />
         <StatisticsSection />
         <ContactForm />

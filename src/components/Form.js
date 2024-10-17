@@ -6,6 +6,7 @@ import {
   FormControlLabel,
   Checkbox,
   Snackbar,
+  Typography,
 } from "@mui/material";
 import { useState } from "react";
 import emailjs from "emailjs-com";
@@ -70,10 +71,10 @@ export default function ContactForm() {
 
     emailjs
       .send(
-        "service_9og51t7",
-        "template_z4bbx0u",
+        "service_hlwwnyj",
+        "template_yo0pjl6",
         emailParams,
-        "Z8AbpDCJ6vBLflIPa"
+        "AbFZGRWXiom57sp8U"
       )
       .then(
         (response) => {
@@ -103,6 +104,14 @@ export default function ContactForm() {
       }}
       onSubmit={handleSubmit}
     >
+      <Typography
+        variant="h5"
+        component="div"
+        sx={{ fontWeight: "bold", textAlign: "center", mb: 3 }}
+      >
+        Contact Us - Feel Free to Reach Out for Your Health
+      </Typography>
+
       <TextField
         name="name"
         label="Name"
