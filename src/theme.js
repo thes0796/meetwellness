@@ -10,7 +10,7 @@ const theme = createTheme({
       main: '#03a9f4', // Light blue for a calming effect
     },
     background: {
-      default: '#f5f5f5', // Light background for cleanliness
+      default: '#e8f5e9', // Light background for cleanliness
     },
   },
   typography: {

@@ -1,4 +1,3 @@
-// src/components/LongDescription.js
 import { Box, Typography, Divider, Fade } from '@mui/material';
 import { useState, useEffect } from 'react';
 
@@ -6,7 +5,7 @@ export default function LongDescription() {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setLoaded(true), 300); // Slight delay for fade-in effect
+    setTimeout(() => setLoaded(true), 300); 
   }, []);
 
   return (
@@ -29,7 +28,7 @@ export default function LongDescription() {
             letterSpacing: '0.05em',
           }}
         >
-          About Xetar Health Care
+          About meetwellness
         </Typography>
 
         <Divider
@@ -54,7 +53,7 @@ export default function LongDescription() {
             textAlign: 'justify',
           }}
         >
-          Xetar Health Care is dedicated to providing the highest quality of personalized health care
+          meetwellness is dedicated to providing the highest quality of personalized health care
           services. We believe in a holistic approach that focuses not just on treating ailments, but
           also on preventing them by empowering you to take control of your health and well-being.
           <br />
@@ -64,8 +63,6 @@ export default function LongDescription() {
           a range of services tailored to meet your unique health needs, from preventive care to comprehensive
           treatment plans.
         </Typography>
-
-        {/* Highlight Section */}
         <Box
           sx={{
             backgroundColor: '#f9fbe7',
@@ -99,7 +96,7 @@ export default function LongDescription() {
               color: '#555',
             }}
           >
-            At Xetar Health Care, we are driven by our mission to make quality health care accessible and
+            At meetwellness, we are driven by our mission to make quality health care accessible and
             affordable to all. From preventive screenings to advanced treatments, we have you covered every
             step of the way.
           </Typography>

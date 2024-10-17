@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+
+@media (max-width: 600px) {
+  .carousel-image {
+    height: 200px; 
+  }
+}
+
+@media (min-width: 601px) and (max-width: 960px) {
+  .carousel-image {
+    height: 300px;
+  }
+}
+
+@media (min-width: 961px) {
+  .carousel-image {
+    height: 400px; 
+  }
+}
+
