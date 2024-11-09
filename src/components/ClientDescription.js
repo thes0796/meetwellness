@@ -4,11 +4,11 @@ import { useState, useEffect } from "react";
 export default function ClientDescription(props) {
   const [checked, setChecked] = useState(false);
   let items1 =
-    "At meetwellness, we take pride in helping our clients achieve healthier, glowing skin through personalized care. Below are some of the amazing transformations our clients have experienced—proof that radiant skin is just one step away with the right care!";
+    "At Meet Your Wellness, we’re passionate about helping our clients achieve healthier, glowing skin. With our personalized approach, many have seen real improvements, boosting their confidence and enjoying a natural, radiant look. We’re here to make healthy skin care simple and effective for you.";
   let items2 =
-    "At meetwellness, we help individuals achieve healthy and sustainable weight gain through personalized nutrition and fitness plans. Below are the inspiring transformations of our clients who have successfully reached their weight gain goals with our guidance";
+    "At Meet Your Wellness, we’re dedicated to helping our clients achieve healthy and sustainable weight gain. Through our personalized plans, many have gained strength, boosted their energy, and felt more confident in their bodies. We make it simple to reach your goals in a healthy, balanced way.";
   let items3 =
-    "Our weight loss programs at meetwellness are designed to promote long-term wellness and fitness. Check out the incredible journeys of our clients who have shed excess weight and embraced healthier lifestyles with our expert support.";
+    "At Meet Your Wellness, we’re proud to help our clients lose weight in a healthy, lasting way. With our personalized support, many people have improved their health, gained confidence, and now enjoy a better quality of life.";
   var DescriptionAbout =
     props.cz === 1 ? items1 : props.cz === 2 ? items2 : items3;
   var About =

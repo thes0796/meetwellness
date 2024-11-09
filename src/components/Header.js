@@ -51,7 +51,7 @@ export default function Header() {
             px: 2,
           }}
         >
-          Welcome to meetwellness
+          Welcome to Meet Your Wellness
         </Typography>
       </Box>
     </Fade>

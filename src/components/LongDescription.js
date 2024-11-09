@@ -40,7 +40,7 @@ export default function LongDescription() {
               mb: 2,
             }}
           >
-            Your Health, Our Priority
+            Health and Happiness, One Click Away{" "}
           </Typography>
           <Typography
             variant="body1"
@@ -51,9 +51,9 @@ export default function LongDescription() {
               color: "#555",
             }}
           >
-            At meetwellness, we are driven by our mission to make quality health
-            care accessible and affordable to all. From preventive screenings to
-            advanced treatments, we have you covered every step of the way.
+            At Meet Your Wellness, we’re here to make feeling your best easy and
+            accessible. With expert support and guidance, you’re just a click
+            away from a healthier, happier you.
           </Typography>
         </Box>
       </Box>

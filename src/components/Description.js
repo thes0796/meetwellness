@@ -19,9 +19,11 @@ export default function Description() {
           variant="body1"
           sx={{ maxWidth: "800px", margin: "auto", lineHeight: 1.8 }}
         >
-          At MeetWellness, we offer personalized health solutions to support
-          your well-being. Our team is dedicated to guiding you toward a
-          healthier lifestyle.
+          At Meet Your Wellness, we’re all about helping you live your
+          healthiest life with personalized support and care. Our dedicated team
+          works with you to create a wellness journey that fits your goals and
+          lifestyle, making every step toward better health simple and
+          achievable.
         </Typography>
         <Typography variant="h5" sx={{ mt: 4, mb: 2 }}>
           Our Services

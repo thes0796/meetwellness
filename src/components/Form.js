@@ -109,7 +109,16 @@ export default function ContactForm() {
         component="div"
         sx={{ fontWeight: "bold", textAlign: "center", mb: 3 }}
       >
-        Contact Us - Feel Free to Reach Out for Your Health
+        Ready to Transform Your Health? Let’s Get Started!
+      </Typography>
+      <Typography
+        variant="p"
+        component="div"
+        sx={{ textAlign: "center", mb: 3 }}
+      >
+        Fill out the form below, and our team will connect with you to discuss
+        how we can support your health journey. Your path to a healthier,
+        happier you starts here!{" "}
       </Typography>
 
       <TextField
