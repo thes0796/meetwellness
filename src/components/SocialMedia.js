@@ -6,7 +6,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 export default function SocialMedia() {
   return (
     <Box sx={{ p: 4, m: 2, textAlign: "center", backgroundColor: "#e0f7fa" }}>
-      <IconButton
+      {/* <IconButton
         href="https://facebook.com"
         target="_blank"
         sx={{ "&:hover": { transform: "scale(1.1)", transition: "0.3s" } }}
@@ -19,9 +19,9 @@ export default function SocialMedia() {
         sx={{ "&:hover": { transform: "scale(1.1)", transition: "0.3s" } }}
       >
         <TwitterIcon fontSize="large" color="primary" />
-      </IconButton>
+      </IconButton> */}
       <IconButton
-        href="https://instagram.com"
+        href="https://www.instagram.com/meet_your_wellness?igsh=NHZjZGI4c3VjbzZn"
         target="_blank"
         sx={{ "&:hover": { transform: "scale(1.1)", transition: "0.3s" } }}
       >

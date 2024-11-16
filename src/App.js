@@ -9,7 +9,6 @@ const LongDescription = React.lazy(() => import('./components/LongDescription'))
 const ContactForm = React.lazy(() => import('./components/Form'));
 const SocialMedia = React.lazy(() => import('./components/SocialMedia'));
 const StatisticsSection = React.lazy(() => import('./components/StatisticsSection'));
-
 function App() {
   return (
     <ThemeProvider theme={theme}>

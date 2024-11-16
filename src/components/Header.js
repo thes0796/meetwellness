@@ -1,59 +1,51 @@
 import { Box, Typography } from "@mui/material";
-import { Fade } from "@mui/material";
-import { useEffect, useState } from "react";
-import backgroundImage from "../assets/image.png";
+import backgroundImage from "../assets/me.png";
 
 export default function Header() {
-  const [loaded, setLoaded] = useState(false);
-
-  useEffect(() => {
-    setTimeout(() => setLoaded(true), 500);
-  }, []);
-
   return (
-    <Fade in={loaded} timeout={1000}>
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: { xs: "column", md: "row" },
+        height: "100vh",
+        overflow: "hidden",
+      }}
+    >
       <Box
         sx={{
-          height: "60vh",
+          flex: 1,
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
+          height: { xs: "50vh", md: "100%" },
+          minHeight: "300px",
+        }}
+      />
+      <Box
+        sx={{
+          flex: 1,
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          background: "linear-gradient(to right, #4e54c8, #8f94fb)",
           color: "#fff",
-          position: "relative",
-          overflow: "hidden",
+          flexDirection: "column",
+          px: { xs: 2, md: 4 },
         }}
       >
-        <Box
-          sx={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            width: "100%",
-            height: "100%",
-            backgroundColor: "rgba(0, 0, 0, 0.6)",
-            backdropFilter: "blur(3px)",
-            zIndex: 1,
-          }}
-        />
-
         <Typography
-          variant="h2"
+          variant="h3"
           sx={{
-            color: "white",
-            zIndex: 2,
             fontWeight: "bold",
             textAlign: "center",
-            textShadow: "2px 4px 6px rgba(0, 0, 0, 0.7)",
-            fontSize: { xs: "2rem", md: "3.5rem" },
-            px: 2,
+            mb: 2,
+            textShadow: "1px 2px 4px rgba(0, 0, 0, 0.5)",
+            fontSize: { xs: "1.8rem", sm: "2rem", md: "3rem" },
           }}
         >
           Welcome to Meet Your Wellness
         </Typography>
       </Box>
-    </Fade>
+    </Box>
   );
 }
